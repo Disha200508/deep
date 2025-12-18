@@ -1,0 +1,27 @@
+.qr-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.qr-box {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.close-btn {
+  margin-top: 12px;
+  background: #f87171;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

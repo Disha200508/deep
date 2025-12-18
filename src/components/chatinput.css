@@ -1,0 +1,83 @@
+.ds-input-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+  background: rgba(10, 15, 30, 0.9);
+}
+
+/* Input field */
+.ds-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e5e7eb;
+  font-size: 1rem;
+  font-family: "Poppins", "Noto Sans Devanagari", sans-serif;
+}
+
+/* Buttons */
+.icon-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: gold;
+  font-size: 1.2rem;
+  padding: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover tooltip effect */
+.icon-btn:hover {
+  background: rgba(255, 215, 0, 0.15);
+  transform: scale(1.1);
+}
+
+/* OM button highlight */
+.om-btn {
+  font-size: 1.3rem;
+  background: rgba(255, 215, 0, 0.2);
+}
+.chat-input-bar {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #0b1220;
+  border-top: 1px solid #1f2a40;
+}
+
+.chat-input-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+  background: #111827;
+  color: #fff;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  color: #facc15;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.send-btn {
+  background: #facc15;
+  color: #000;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

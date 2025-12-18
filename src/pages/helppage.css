@@ -1,0 +1,82 @@
+/* ===== PAGE CONTAINER ===== */
+.help-container {
+  padding: 40px 24px;
+  background: linear-gradient(180deg, #020617, #050b1e);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+/* ===== TITLE ===== */
+.help-container h1 {
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 8px;
+  font-size: 36px;
+}
+
+/* ===== SUBTITLE ===== */
+.help-subtitle {
+  text-align: center;
+  opacity: 0.85;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+/* ===== GRID LAYOUT ===== */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* ===== COMMON CARD STYLE ===== */
+.help-card {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.help-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 28px rgba(255, 215, 0, 0.35);
+}
+
+/* ===== WRAPPER FOR CENTERED CHAT CARD ===== */
+.help-card-wrapper {
+  grid-column: 1 / -1;          /* span full row */
+  display: flex;
+  justify-content: center;     /* center horizontally */
+  margin-top: 30px; 
+  text-align: center;           /* push it slightly down */
+}
+
+/* ===== CHAT CTA CARD ===== */
+.help-card-cta {
+  min-width: 280px;
+  text-align:centre;
+  max-width: 360px;
+  background: linear-gradient(135deg, #fbbf24, #fde68a);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+.help-card-cta:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.9);
+}
+
+/* ===== FOOTER TEXT ===== */
+.help-footer {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  font-size: 15px;
+}

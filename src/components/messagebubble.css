@@ -1,0 +1,99 @@
+.bubble-row {
+  display: flex;
+  margin: 4px 0;
+}
+
+.user-row {
+  justify-content: flex-end;
+}
+
+.bot-row {
+  justify-content: flex-start;
+}
+
+.bubble {
+  max-width: 75%;
+  padding: 8px 12px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.bubble.user {
+  background: linear-gradient(to right, #fb923c, #facc15);
+  color: #1f2937;
+}
+
+.bubble.bot {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(96, 165, 250, 0.8);
+  color: #e5e7eb;
+}
+.speak-btn {
+  margin-top: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffd54f;
+}
+
+.speak-btn:hover {
+  transform: scale(1.1);
+}
+
+.tts-controls {
+  display: inline-flex;
+  gap: 6px;
+  margin-left: 8px;
+}
+
+.tts-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.tts-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tts-btn.stop {
+  color: #ff5c5c;
+}
+.bookmark-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 6px;
+  opacity: 0.7;
+}
+
+.bookmark-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.bookmark-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
+  opacity: 0.4;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.bookmark-btn:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+.bookmark-btn.active {
+  opacity: 1;
+  color: gold;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
